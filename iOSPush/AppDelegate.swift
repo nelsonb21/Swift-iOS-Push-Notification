@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //let mixpanel = Mixpanel.sharedInstanceWithToken("9c1c0717d913efc78d5c71dbdf43d73e")
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        BuddyBuildSDK.setup()
+        
         // Override point for customization after application launch.
         
         let notificationTypes : UIUserNotificationType = [.Alert, .Badge, .Sound]
