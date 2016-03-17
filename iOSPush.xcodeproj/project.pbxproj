@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23F37269AD8C5AF2760F1329 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4658A54BCDBBB03BCB5EF95 /* CoreText.framework */; };
 		274D9053B7A5FA3D6BDA217B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1204A946F3D2A2CE7D452FF7 /* Pods.framework */; };
+		3F575CBE5074CB1B5BD06C78 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD1C6F7A5C9F9A3DF9853CB /* AssetsLibrary.framework */; };
+		526DA229E46E6CF1E9E5E48E /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A47F29DDE788EF26C4CFCE /* BuddyBuildSDK.framework */; };
+		93D63BCF7F51F8426248EC70 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA8303F2B75857BBF1CC04C /* QuartzCore.framework */; };
+		97F25C6F9406661C64C74CDE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B10ED713A07D4C559D0B3C8 /* CoreTelephony.framework */; };
+		B2A11E9CD5B3F08DCBC44F34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DB9B7C84C9E0E7E7520FE0 /* SystemConfiguration.framework */; };
 		B67E1FB61BFB339F003BBAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E1FB51BFB339F003BBAE8 /* AppDelegate.swift */; };
 		B67E1FB81BFB339F003BBAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E1FB71BFB339F003BBAE8 /* ViewController.swift */; };
 		B67E1FBB1BFB339F003BBAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E1FB91BFB339F003BBAE8 /* Main.storyboard */; };
@@ -38,6 +44,15 @@
 
 /* Begin PBXFileReference section */
 		1204A946F3D2A2CE7D452FF7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+<<<<<<< HEAD
+=======
+		13DB9B7C84C9E0E7E7520FE0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		21A47F29DDE788EF26C4CFCE /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		4DD1C6F7A5C9F9A3DF9853CB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9B10ED713A07D4C559D0B3C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9CA8303F2B75857BBF1CC04C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B51DAD56A4AF4DC0A3AA60A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> origin/master
 		B67E1FB21BFB339F003BBAE8 /* iOSPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67E1FB51BFB339F003BBAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67E1FB71BFB339F003BBAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +66,13 @@
 		B67E1FD11BFB339F003BBAE8 /* iOSPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67E1FD51BFB339F003BBAE8 /* iOSPushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPushUITests.swift; sourceTree = "<group>"; };
 		B67E1FD71BFB339F003BBAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		BFFDAB500892346374AF1307 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DAB45DB88A44BFFB2E4004E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		D4658A54BCDBBB03BCB5EF95 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EC2705182C67A084E5C5C7D7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> origin/master
 		ED35F15B1C9AF3FE00D9B4C7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED35F15E1C9AF64500D9B4C7 /* iOSPush-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSPush-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED35F15F1C9AF64500D9B4C7 /* Mixpanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mixpanel.m; sourceTree = "<group>"; };
@@ -64,6 +84,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				274D9053B7A5FA3D6BDA217B /* Pods.framework in Frameworks */,
+				526DA229E46E6CF1E9E5E48E /* BuddyBuildSDK.framework in Frameworks */,
+				3F575CBE5074CB1B5BD06C78 /* AssetsLibrary.framework in Frameworks */,
+				23F37269AD8C5AF2760F1329 /* CoreText.framework in Frameworks */,
+				97F25C6F9406661C64C74CDE /* CoreTelephony.framework in Frameworks */,
+				B2A11E9CD5B3F08DCBC44F34 /* SystemConfiguration.framework in Frameworks */,
+				93D63BCF7F51F8426248EC70 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +179,12 @@
 			isa = PBXGroup;
 			children = (
 				1204A946F3D2A2CE7D452FF7 /* Pods.framework */,
+				21A47F29DDE788EF26C4CFCE /* BuddyBuildSDK.framework */,
+				4DD1C6F7A5C9F9A3DF9853CB /* AssetsLibrary.framework */,
+				D4658A54BCDBBB03BCB5EF95 /* CoreText.framework */,
+				9B10ED713A07D4C559D0B3C8 /* CoreTelephony.framework */,
+				13DB9B7C84C9E0E7E7520FE0 /* SystemConfiguration.framework */,
+				9CA8303F2B75857BBF1CC04C /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -466,6 +498,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Bolívar (H53W8W9849)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iOSPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Koombea.BuddyTest2PushNotifications;
@@ -483,6 +519,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Bolívar (H53W8W9849)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iOSPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Koombea.BuddyTest2PushNotifications;
