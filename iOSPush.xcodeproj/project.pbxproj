@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274D9053B7A5FA3D6BDA217B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1204A946F3D2A2CE7D452FF7 /* Pods.framework */; };
 		B67E1FB61BFB339F003BBAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E1FB51BFB339F003BBAE8 /* AppDelegate.swift */; };
 		B67E1FB81BFB339F003BBAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E1FB71BFB339F003BBAE8 /* ViewController.swift */; };
 		B67E1FBB1BFB339F003BBAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E1FB91BFB339F003BBAE8 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		B67E1FC01BFB339F003BBAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E1FBE1BFB339F003BBAE8 /* LaunchScreen.storyboard */; };
 		B67E1FCB1BFB339F003BBAE8 /* iOSPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E1FCA1BFB339F003BBAE8 /* iOSPushTests.swift */; };
 		B67E1FD61BFB339F003BBAE8 /* iOSPushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E1FD51BFB339F003BBAE8 /* iOSPushUITests.swift */; };
+		ED35F15C1C9AF3FE00D9B4C7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED35F15B1C9AF3FE00D9B4C7 /* Podfile */; };
+		ED35F1601C9AF64500D9B4C7 /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35F15F1C9AF64500D9B4C7 /* Mixpanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1204A946F3D2A2CE7D452FF7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51DAD56A4AF4DC0A3AA60A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B67E1FB21BFB339F003BBAE8 /* iOSPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67E1FB51BFB339F003BBAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67E1FB71BFB339F003BBAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,10 @@
 		B67E1FD11BFB339F003BBAE8 /* iOSPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67E1FD51BFB339F003BBAE8 /* iOSPushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPushUITests.swift; sourceTree = "<group>"; };
 		B67E1FD71BFB339F003BBAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2705182C67A084E5C5C7D7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ED35F15B1C9AF3FE00D9B4C7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED35F15E1C9AF64500D9B4C7 /* iOSPush-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSPush-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED35F15F1C9AF64500D9B4C7 /* Mixpanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mixpanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274D9053B7A5FA3D6BDA217B /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0BFCE8C086D88778D85AC1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC2705182C67A084E5C5C7D7 /* Pods.debug.xcconfig */,
+				B51DAD56A4AF4DC0A3AA60A4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B67E1FA91BFB339E003BBAE8 = {
 			isa = PBXGroup;
 			children = (
+				ED35F15B1C9AF3FE00D9B4C7 /* Podfile */,
 				B67E1FB41BFB339F003BBAE8 /* iOSPush */,
 				B67E1FC91BFB339F003BBAE8 /* iOSPushTests */,
 				B67E1FD41BFB339F003BBAE8 /* iOSPushUITests */,
 				B67E1FB31BFB339F003BBAE8 /* Products */,
+				B0BFCE8C086D88778D85AC1F /* Pods */,
+				C273BA062F175C948DC80517 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +125,8 @@
 				B67E1FBC1BFB339F003BBAE8 /* Assets.xcassets */,
 				B67E1FBE1BFB339F003BBAE8 /* LaunchScreen.storyboard */,
 				B67E1FC11BFB339F003BBAE8 /* Info.plist */,
+				ED35F15F1C9AF64500D9B4C7 /* Mixpanel.m */,
+				ED35F15E1C9AF64500D9B4C7 /* iOSPush-Bridging-Header.h */,
 			);
 			path = iOSPush;
 			sourceTree = "<group>";
@@ -125,6 +149,14 @@
 			path = iOSPushUITests;
 			sourceTree = "<group>";
 		};
+		C273BA062F175C948DC80517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1204A946F3D2A2CE7D452FF7 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B67E1FDA1BFB339F003BBAE8 /* Build configuration list for PBXNativeTarget "iOSPush" */;
 			buildPhases = (
+				840413EE70710839A2FCF0C1 /* Check Pods Manifest.lock */,
 				B67E1FAE1BFB339F003BBAE8 /* Sources */,
 				B67E1FAF1BFB339F003BBAE8 /* Frameworks */,
 				B67E1FB01BFB339F003BBAE8 /* Resources */,
+				EA8F9AC1709C890450577925 /* Embed Pods Frameworks */,
+				6751F48DB48202E132F90F94 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,13 +222,21 @@
 		B67E1FAA1BFB339E003BBAE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Siva Ganesh";
 				TargetAttributes = {
 					B67E1FB11BFB339F003BBAE8 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = SHCLPJTU4V;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					B67E1FC51BFB339F003BBAE8 = {
 						CreatedOnToolsVersion = 7.1;
@@ -232,6 +275,7 @@
 			files = (
 				B67E1FC01BFB339F003BBAE8 /* LaunchScreen.storyboard in Resources */,
 				B67E1FBD1BFB339F003BBAE8 /* Assets.xcassets in Resources */,
+				ED35F15C1C9AF3FE00D9B4C7 /* Podfile in Resources */,
 				B67E1FBB1BFB339F003BBAE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,12 +296,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6751F48DB48202E132F90F94 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840413EE70710839A2FCF0C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8F9AC1709C890450577925 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B67E1FAE1BFB339F003BBAE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B67E1FB81BFB339F003BBAE8 /* ViewController.swift in Sources */,
+				ED35F1601C9AF64500D9B4C7 /* Mixpanel.m in Sources */,
 				B67E1FB61BFB339F003BBAE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,27 +493,34 @@
 		};
 		B67E1FDB1BFB339F003BBAE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2705182C67A084E5C5C7D7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Bolívar (H53W8W9849)";
 				INFOPLIST_FILE = iOSPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Koombea.BuddyTest2PushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2c940cd5-67b5-4925-8328-6d8ec4abc90f";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSPush/iOSPush-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B67E1FDC1BFB339F003BBAE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51DAD56A4AF4DC0A3AA60A4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Bolívar (H53W8W9849)";
 				INFOPLIST_FILE = iOSPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Koombea.BuddyTest2PushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2c940cd5-67b5-4925-8328-6d8ec4abc90f";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSPush/iOSPush-Bridging-Header.h";
 			};
 			name = Release;
 		};
