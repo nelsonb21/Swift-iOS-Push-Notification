@@ -7,16 +7,13 @@
 //
 
 import UIKit
-//import Mixpanel
 
 class ViewController: UIViewController {
     
-    //let mixpanel = Mixpanel.sharedInstanceWithToken("9c1c0717d913efc78d5c71dbdf43d73e")
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //self.mixpanel.track("Video play");
        
     }
     

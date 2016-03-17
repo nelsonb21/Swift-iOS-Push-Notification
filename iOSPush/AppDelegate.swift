@@ -7,13 +7,11 @@
 //
 
 import UIKit
-//import Mixpanel
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    //let mixpanel = Mixpanel.sharedInstanceWithToken("9c1c0717d913efc78d5c71dbdf43d73e")
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -22,11 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let notificationSettings : UIUserNotificationSettings = UIUserNotificationSettings(forTypes: notificationTypes, categories: nil)
         UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
         
-//        self.mixpanel.identify("12148");
-//        self.mixpanel.people.set(["$email": "mario@koombea.com", "$created": "2017-03-17 16:53:54"])
-        
         let oneSignal = OneSignal(launchOptions: launchOptions, appId: "18f784e0-1184-4936-850e-03ce2c6ea412", handleNotification: nil)
-        
         OneSignal.defaultClient().enableInAppAlertNotification(true)
         
         return true
@@ -39,8 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
         
-        //self.mixpanel.people.addPushDeviceToken(deviceToken)
-        print(deviceToken)
+        //print(deviceToken)
     }
     
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {

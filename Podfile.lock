@@ -1,15 +1,10 @@
 PODS:
-  - Mixpanel (2.9.4):
-    - Mixpanel/Mixpanel (= 2.9.4)
-  - Mixpanel/Mixpanel (2.9.4)
   - OneSignal (1.11.3)
 
 DEPENDENCIES:
-  - Mixpanel
   - OneSignal
 
 SPEC CHECKSUMS:
-  Mixpanel: 80d2ca9bb38ae91c1044d738e80fe448377ac89f
   OneSignal: 309b636ba56955a427fd1d2544ba4dd52e19fce0
 
 COCOAPODS: 0.39.0
