@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let notificationSettings : UIUserNotificationSettings = UIUserNotificationSettings(forTypes: notificationTypes, categories: nil)
         UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
         
+        
         let oneSignal = OneSignal(launchOptions: launchOptions, appId: "18f784e0-1184-4936-850e-03ce2c6ea412", handleNotification: nil)
         OneSignal.defaultClient().enableInAppAlertNotification(true)
         
